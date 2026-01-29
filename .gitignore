@@ -1,0 +1,10 @@
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de salida
+data_out/*.csv
+!data_out/valores-canasta-basica-alimentos-canasta-basica-total-mensual-2016.csv
